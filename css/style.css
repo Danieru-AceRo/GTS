@@ -60,7 +60,6 @@ color: #524b4b;
 
 .card{
     animation: fadeIn 2s ease-in;
-    position: initial;
 }
 .card .card-content {
     position: relative;
