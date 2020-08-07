@@ -1,0 +1,21 @@
+body{
+    background-color: #F5AE42;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    max-height: 30vh;
+}
+h4{
+    color: black;
+}
+h5{
+    color: #42a5f5;
+}
+a{
+    color: #0d47a1;
+}

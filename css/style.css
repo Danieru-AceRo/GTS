@@ -1,0 +1,151 @@
+main{
+    margin-top: 25px;
+}
+
+p{
+    text-align: justify;
+}
+h3{
+    color: #0d47a1;
+}
+.divider{
+    background-color: #bdbdbd;
+}
+.slider .slides li .slides-daniel{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.slider .slides{
+    background-color: gray;
+}
+.caption{
+    background-color: rgba(82, 75, 75, 0.45);
+}
+.nav{
+    background-image: url(../assets/img/fondo-galos.jpg)
+}
+.nav-wrapper ul li a{
+    color: white;
+}
+.sidenav{
+    background-color: #090909;
+    padding-top: 25px;
+}
+.sidenav-trigger i{
+color: #524b4b;
+}
+#dropdown1{
+    background-color: #42A5F5;
+}
+#dropdown2{
+    background-color: #090909;
+}
+#dropdown2 li:hover{
+    background-color: #313131;
+}
+.contact-icons li i{
+    font-size: 5rem;
+    margin-top: 2rem;
+    color: #e6e7e8;
+}
+
+.slider .slides li{
+    background-image: url(../assets/img/fondo-galos.jpg)
+}
+.btn-floating.halfway-fab{
+    bottom: initial;
+}
+
+.card{
+    animation: fadeIn 2s ease-in;
+    position: initial;
+}
+.card .card-content {
+    position: relative;
+}
+.card img{
+    animation: fadeIn 3s ease-out;
+}
+
+.card .card-image img{
+    object-fit: contain !important;
+}
+.card .card-content .card-title i{
+    line-height: inherit;
+}
+
+.card-offert{
+    text-decoration: line-through;
+}
+
+.card .card-content-btn {
+   padding-bottom: 4px;
+}
+.btn-floating.halfway-fab {
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+.brand-logo img {
+    height: 100px;
+    margin-top: -30px;
+}
+
+
+.btn{
+    background-color: #42A5F5;
+    color: white !important;
+}
+.page-footer {
+    background-color: #185a8d !important;
+}
+
+ul #dropdown2 .dropdown-content{
+    width: 130px;
+}
+
+.slider .slides li .slides-fliyer{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #7dacb8; 
+}
+.product-description{
+    text-align: justify;
+}
+.product-description li{
+    list-style: disc !important;
+    margin-left: 10%;
+}
+.carousel{
+    height: 485px;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+@media (min-width: 991px){
+    .card .card-image img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .card-description{
+        height: 180px;
+    }
+    .card .card-content p {
+        height: 70px;
+    }
+    .card-price{
+        height: 70px;
+    }
+    .card-price h6{
+        margin: 0;
+    }
+
+    /* página de soluciones */
+    .card .card-content .card-description-soluciones{
+        height: 130px ;
+    }
+}
