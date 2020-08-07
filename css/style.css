@@ -70,6 +70,7 @@ color: #524b4b;
 
 .card .card-image img{
     object-fit: contain !important;
+    background-color: #185a8d;
 }
 
 .card .card-content h6{
