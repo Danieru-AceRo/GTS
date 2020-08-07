@@ -14,7 +14,7 @@ h3{
 .slider .slides li .slides-daniel{
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    /* background-position-y: bottom; */
 }
 
 .slider .slides{
@@ -29,10 +29,10 @@ h3{
 .nav-wrapper ul li a{
     color: white;
 }
-.sidenav{
+/* .sidenav{
     background-color: #090909;
     padding-top: 25px;
-}
+} */
 .sidenav-trigger i{
 color: #524b4b;
 }
@@ -70,6 +70,10 @@ color: #524b4b;
 
 .card .card-image img{
     object-fit: contain !important;
+}
+
+.card .card-content h6{
+    height: 80px;
 }
 .card .card-content .card-title i{
     line-height: inherit;
