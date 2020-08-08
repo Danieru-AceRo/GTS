@@ -98,9 +98,9 @@ color: #524b4b;
 }
 
 
-.btn{
-    background-color: #42A5F5;
-    color: white !important;
+.btn, .btn-large{
+    background-color: #e5d61e;
+    color: #3f3e3e;
 }
 .page-footer {
     background-color: #185a8d !important;
@@ -125,6 +125,19 @@ ul #dropdown2 .dropdown-content{
 .carousel{
     height: 485px;
 }
+.sidenav .btn {
+    background-color: #0d47a1;
+}
+.nav-wrapper i {
+    color: #185a8d;
+}
+#nav-mobile .btn {
+    background-color: #0d47a1;
+}
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: #cdc01e;
+}
+
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}

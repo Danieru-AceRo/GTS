@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" type="image/png" href="assets/img/isotipo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Galos Training Solution</title>
+</head>
+<body class="blue-grey lighten-5">
+    <header>
+      <nav class="nav">
+        <div class="nav-wrapper">
+          <a href="./index.html" class="brand-logo"><img src="assets/img/isotipo.png" alt=""></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+                <a href="./index.html">Inicio</a>
+            </li>
+            <li>
+                <a class="dropdown-trigger" href="#!" data-target="dropdown2">Cursos<i class="material-icons right">arrow_drop_down</i></a>
+                
+            </li>
+            <li>
+                <a class="btn waves-effect waves-light"  href="contactar.html">Contactar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="sidenav blue-grey lighten-5" id="mobile-demo">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Cursos<i class="material-icons right">arrow_drop_down</i></a>
+        <li>
+            <a class="btn waves-effect waves-light" href="contactar.html">Contactar</a>
+        </li>
+      </ul>
+    </header>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="idiomas.html">Idiomas</a></li>
+        <div class="divider"></div>
+        <li><a href="pnl.html">PNL</a></li>
+        <div class="divider"></div>
+        <li><a href="coaching.html">Coaching</a></lil>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="idiomas.html">Idiomas</a></li>
+        <div class="divider"></div>
+        <li><a href="pnl.html">PNL</a></li>
+        <div class="divider"></div>
+        <li><a href="coaching.html">Coaching</a></li>
+    </ul>
+    <main >
+        <section class="section center-align" >
+            <h1>Contactános</h1>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>
+                            Si tienes dudadas puedes contactarte con nosotros
+                            al telefono <a href="tel:+5215621183633">5621183633</a> o bien
+                            manda un correo con tu nombre y teléfono al <a href="mailto:ameza.edusai@gmail.com">ameza.edusai@gmail.com</a>
+                            para que un acesor sé comunique con usted.
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row center-align">
+                        <a class="waves-effect waves-light btn-large" href="mailto:ameza.edusai@gmail.com" target="_blank"><i class="material-icons right">contact_mail
+                        </i>Contactar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer red">
+      <h3 class="white-text center-align">Contacto</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col l12 s12">
+              <ul class="contact-icons center-align">
+                <li class="col l2 s4"><a class="grey-text text-lighten-3" href="https://www.facebook.com/GALOS-Training-Solutions-104733677897546" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li class="col l2 s4"><a class="grey-text text-lighten-3" href="https://www.instagram.com/gts_cursos_profesionales/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li class="col l2 s4"><a class="grey-text text-lighten-3" href="https://wa.me/5215621183633" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li class="col l2 s4"><a class="grey-text text-lighten-3" href="mailto:ameza.edusai@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                <li class="col l2 s4"><a class="grey-text text-lighten-3" href="https://www.linkedin.com/company/gtrainingsolutions/"><i class="fa fa-linkedin"></i></a></li>
+                <li class="col l2 s4"><a class="grey-text text-lighten-3" href="tel:+5215621183633"><i class="fa fa-phone"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Copyright 
+          <a class="grey-text text-lighten-4 right" href="https://ddmdstudio.web.app/">Designed by DDMD</a>
+          </div>
+        </div>
+      </footer>
+      <script> var instance = M.Carousel.init({
+        fullWidth: true,
+        indicators: true
+      });</script>
+      <script>
+          document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+  });
+      </script>
+      <script>
+          document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems);
+  });
+      </script>
+</body>
+</html>
