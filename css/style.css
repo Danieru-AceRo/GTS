@@ -74,7 +74,7 @@ color: #524b4b;
 }
 
 .card .card-content h6{
-    height: 80px;
+    height: 100px;
 }
 .card .card-content .card-title i{
     line-height: inherit;
@@ -157,6 +157,7 @@ ul #dropdown2 .dropdown-content{
     .card-price{
         height: 70px;
     }
+    
     .card-price h6{
         margin: 0;
     }
@@ -165,4 +166,6 @@ ul #dropdown2 .dropdown-content{
     .card .card-content .card-description-soluciones{
         height: 130px ;
     }
+    
 }
+
