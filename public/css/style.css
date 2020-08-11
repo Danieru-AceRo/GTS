@@ -105,6 +105,7 @@ color: #524b4b;
 
 .card-info-btn{
     background-color: #25d366;
+    margin-top: 15px;
 }
 .page-footer {
     background-color: #185a8d !important;
@@ -187,3 +188,9 @@ ul #dropdown2 .dropdown-content{
     }
 }
 
+@media (min-width: 601px) {
+    .card-info-btn{
+        background-color: #25d366;
+        margin-top: initial;
+    }
+}
