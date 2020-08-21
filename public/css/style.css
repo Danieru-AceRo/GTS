@@ -24,7 +24,8 @@ h3{
     background-color: rgba(82, 75, 75, 0.45);
 }
 .nav{
-    background-image: url(../assets/img/fondo-galos.jpg)
+    background-image: url(../assets/img/fondo-galos.jpg);
+    min-height: 65px;
 }
 .nav-wrapper ul li a{
     color: white;
@@ -170,6 +171,18 @@ ul #dropdown2 .dropdown-content{
 .page-footer a{
     color: white;
 }
+.btn-banner{
+    width: 50%;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+}
+.carousel.carousel-slider .carousel-fixed-item.with-indicators {
+    bottom: 1%;
+}
+.carousel.carousel-slider .carousel-fixed-item {
+    bottom: 1%;
+}
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
@@ -218,5 +231,9 @@ ul #dropdown2 .dropdown-content{
     .card-info-btn{
         background-color: #25d366;
         margin-top: initial;
+    }
+    .btn-banner{
+        height: 36px;
+        line-height: 36px;
     }
 }
